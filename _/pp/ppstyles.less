@@ -1,0 +1,105 @@
+@orange : #C63326;
+@yellow : rgb(255, 234, 166);
+@blue : #114B63;
+@gray : #8D93A1;
+@mainfont: 'Enriqueta';
+@subfont: 'Economica';
+@gdlight: rgba(0,0,0,0);
+@gddark: rgba(0,0,0,.4);
+@heroimage: '/images/delandphoto.jpg';
+
+.navbar-fixed-top {
+	text-transform: uppercase;
+	font: normal 1.4em @subfont;
+	background-color: @blue;
+}
+
+html {
+}
+
+body {
+	font-family: @mainfont;
+	padding-top: 60px;
+	color: #666;
+}
+
+footer {
+	background: #ccc;
+	color: #FFF;
+}
+
+.droptown-toggle {
+	color: red;
+}
+
+
+.container-fluid {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+#content {
+	#primary {
+		padding-right:2%;
+		
+		h2 {
+			font-size: 2.5em;
+			color: @blue;
+			line-height: 1.1em;
+			padding-bottom: 5px;
+			margin: 30px 0 5px 0;
+		}
+
+		p, li {
+			font-size: 1.6em;
+			line-height: 1.5em;
+		}
+	}
+
+	#secondary {
+		padding-top:25px;
+
+		h2 {
+			color: @orange;
+		}
+
+		p, li {
+			font-size: 1.2em;
+			line-height: 1.5em;
+		}
+		
+		iframe {
+			width: 100%;
+		}
+		
+		#parkingbtn {
+			float: right;
+		}
+	}
+
+}
+
+#branding {
+	margin-bottom: 10px;
+}
+
+.hero-unit {
+	background-color: #AAA;
+	background: -webkit-gradient(linear, 0% 0%, 100% 100%, from(@gddark), to(@gdlight)), url(@heroimage);
+	background-image: -webkit-linear-gradient(top, @gddark, @gdlight), url(@heroimage);
+	background-image: -moz-linear-gradient(top, @gddark, @gdlight), url(@heroimage);
+	background-image: -ms-linear-gradient(top, @gddark, @gdlight), url(@heroimage);
+	background-image: -o-linear-gradient(top, @gddark, @gdlight), url(@heroimage);
+	background-position: 50% 00%;
+  	height: 300px;
+  	position: relative;
+  	padding-top: 20px;
+  	margin-bottom: 0;
+
+	h1 {
+		color: @yellow;
+		font-size: 3.5em;
+	}		
+
+
+}
