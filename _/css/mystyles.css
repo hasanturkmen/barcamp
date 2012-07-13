@@ -19,9 +19,6 @@ footer {
   max-width: 1300px;
   margin: 0 auto;
 }
-#content #primary {
-  padding-right: 2%;
-}
 #content #primary h2 {
   font-size: 2.5em;
   color: #114b63;
@@ -32,6 +29,20 @@ footer {
 #content #primary p,
 #content #primary li {
   font-size: 1.6em;
+  line-height: 1.5em;
+}
+#content #primary #countdown {
+  float: right;
+}
+#content #middle {
+  margin-top: 25px;
+}
+#content #middle h2 {
+  color: #c63326;
+}
+#content #middle p,
+#content #middle li {
+  font-size: 1.2em;
   line-height: 1.5em;
 }
 #content #secondary {
@@ -70,4 +81,7 @@ footer {
 .hero-unit h1 {
   color: #ffeaa6;
   font-size: 3.5em;
+}
+.label {
+  font-size: 1em;
 }

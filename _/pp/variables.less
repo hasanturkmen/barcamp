@@ -21,14 +21,25 @@
 
 // Accent colors
 // -------------------------
-@blue:                  #049cdb;
 @blueDark:              #0064cd;
 @green:                 #46a546;
 @red:                   #9d261d;
 @yellow:                #ffc40d;
-@orange:                #f89406;
 @pink:                  #c3325f;
 @purple:                #7a43b6;
+
+
+@orange : #C63326;
+@yellow : rgb(255, 234, 166);
+@blue : #114B63;
+@gray : #8D93A1;
+@mainfont: 'Enriqueta';
+@subfont: 'Economica';
+@gdlight: rgba(0,0,0,0);
+@gddark: rgba(0,0,0,.4);
+@heroimage: '/images/delandphoto.jpg';
+
+
 
 
 // Scaffolding
@@ -146,14 +157,14 @@
 // Navbar
 // -------------------------
 @navbarHeight:                    40px;
-@navbarBackground:                @grayDarker;
-@navbarBackgroundHighlight:       @grayDark;
+@navbarBackground:                @blue;
+@navbarBackgroundHighlight:       @blue;
 
 @navbarText:                      @grayLight;
-@navbarLinkColor:                 @grayLight;
+@navbarLinkColor:                 @white;
 @navbarLinkColorHover:            @white;
-@navbarLinkColorActive:           @navbarLinkColorHover;
-@navbarLinkBackgroundHover:       transparent;
+@navbarLinkColorActive:           @orange;
+@navbarLinkBackgroundHover:       @orange;
 @navbarLinkBackgroundActive:      @navbarBackground;
 
 @navbarSearchBackground:          lighten(@navbarBackground, 25%);

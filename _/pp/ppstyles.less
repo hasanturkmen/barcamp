@@ -14,9 +14,6 @@
 	background-color: @blue;
 }
 
-html {
-}
-
 body {
 	font-family: @mainfont;
 	padding-top: 60px;
@@ -40,7 +37,6 @@ footer {
 
 #content {
 	#primary {
-		padding-right:2%;
 		
 		h2 {
 			font-size: 2.5em;
@@ -54,6 +50,26 @@ footer {
 			font-size: 1.6em;
 			line-height: 1.5em;
 		}
+		
+		#countdown {
+			float: right;
+		}		
+	}
+
+	#middle {
+		margin-top:25px;
+
+		h2 {
+			color: @orange;
+		}
+
+		p, li {
+			font-size: 1.2em;
+			line-height: 1.5em;
+		}
+		
+
+		
 	}
 
 	#secondary {
@@ -99,7 +115,9 @@ footer {
 	h1 {
 		color: @yellow;
 		font-size: 3.5em;
-	}		
+	}
+}
 
-
+.label {
+	font-size: 1em;
 }
