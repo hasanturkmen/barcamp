@@ -9,15 +9,6 @@
 <?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/navigation.php')?>
 <div id="content" class="container-fluid">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/header.php')?>
-	<div class="row-fluid">
-		<div class="span12">
-			<div class="hero-unit">
-				<h1>Free Technology Unconference</h1>
-				<p>Downtown Deland • Saturday, October 6th • 9:00 a.m. - 5 p.m.</p>
-				<p><a class="btn btn-primary btn-large">Registration available soon...</a></p>
-			</div>
-		</div>
-	</div><!-- row -->
 	<div id="info" class="row-fluid">
 		<article id="primary" class="span9">
 			<h2>Register to get your ticket for BarCamp Deland</h2>
@@ -28,7 +19,7 @@
 
 		</article><!-- Main Article -->	
 			
-		<sidebar id="middle" class="span3">
+		<sidebar id="middle" class="span3 hidden-phone">
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_sponsors.php')?>
 		</sidebar>
 		

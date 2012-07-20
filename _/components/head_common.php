@@ -5,10 +5,12 @@
 	
 	<meta property="og:title" content="BarCamp Deland" />
 	<meta property="og:type" content="activity" />
-	<meta property="og:url" content="http://facebook.com/barcampdeland" />
+	<meta property="og:url" content="http://barcampdeland.org" />
 	<meta property="og:image" content="http://barcampdeland.org/images/barcampdelandlogo-square.png" />
 	<meta property="og:site_name" content="BarCamp Deland" />
 	<meta property="fb:admins" content="647210751" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
