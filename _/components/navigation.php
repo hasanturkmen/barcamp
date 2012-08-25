@@ -11,6 +11,7 @@
       <div class="nav-collapse">
         <ul class="nav">
           <li><a href="/">Home</a></li>
+          <li><a href="speakers.php">Speakers</a></li>
           <li><a href="register.php">Register</a></li>
         </ul>
       </div><!--/.nav-collapse -->

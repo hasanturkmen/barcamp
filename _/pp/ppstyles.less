@@ -7,6 +7,8 @@
 @gdlight: rgba(0,0,0,0);
 @gddark: rgba(0,0,0,.4);
 @heroimage: '/images/delandphoto.jpg';
+@bgcolor: rgb(236, 234, 222);
+@highlight: rgb(244, 234, 200);
 
 .navbar-fixed-top {
 	text-transform: uppercase;
@@ -17,7 +19,8 @@
 body {
 	font-family: @mainfont;
 	padding-top: 60px;
-	color: #666;
+	color: @gray;
+	background: @bgcolor; 
 }
 
 footer {
@@ -35,6 +38,38 @@ footer {
 	margin: 0 auto;
 }
 
+#speakers {
+	h2 {
+		color: @blue;
+		font-size: 2.2em;
+	}
+	
+	h3 {
+		font-size: 1.7em;
+		color: @orange;
+		margin-top: 20px;
+	}
+	
+	h4 {
+		color: @blue;
+		font-size: 1.3em;
+		margin-bottom: 10px;
+	}
+	
+
+	img {
+		float: left;
+		padding-right: 1em;
+	}
+
+	p {
+		font-size: 1.4em;
+		line-height: 1.3em;
+	}
+
+
+}
+
 #content {
 	#primary {
 		
@@ -49,27 +84,43 @@ footer {
 		p, li {
 			font-size: 1.6em;
 			line-height: 1.5em;
+			padding-right: 5%;
 		}
 		
 		#countdown {
 			float: right;
 		}		
-	}
 
-	#middle {
-		margin-top:25px;
+		#main {
+			float: left;
+			width:  70%;
+		}		
+	
+		#middle {
+			width: 30%;
+			float:right;
+			
+			h2 {
+				color: @orange;
+			}
 
-		h2 {
-			color: @orange;
+			h3 {
+				color: @blue;
+				line-height: 110%;
+				margin-top: 20px;
+			}
+
+			h4 {
+				margin-top: 2px;
+				margin-bottom: 5px;
+			}
+	
+			p, li {
+				margin-top: 5px;
+				font-size: 1.1em;
+				line-height: 1.3em;
+			}
 		}
-
-		p, li {
-			font-size: 1.2em;
-			line-height: 1.5em;
-		}
-		
-
-		
 	}
 
 	#secondary {
@@ -90,6 +141,24 @@ footer {
 		
 		#parkingbtn {
 			float: right;
+		}
+		
+		.venue {
+			a {
+				color: @gray;
+			}
+			
+			a:hover {
+				text-decoration: none;
+			}
+			p {
+				padding-top:10px;
+				font-size: .9em;
+			}
+			h3 {
+				color: @orange;
+			}
+
 		}
 	}
 
@@ -122,7 +191,7 @@ footer {
 	
 	p {
 		color: white;
-		line-height: 1em;
+		line-height: 1.75em;
 	}
 }
 
@@ -148,6 +217,8 @@ p#sharelogos img {
 	max-height: 100px;
 }
 
+
+#speakers
 
 @media (max-width: 480px) {
 	body, footer {
@@ -195,8 +266,6 @@ p#sharelogos img {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-
-
 	body {
 		padding-top: 0;
 	}
@@ -204,7 +273,12 @@ p#sharelogos img {
 	.hero-unit {
 		height: 180px !important;
 	 	background-size: 190% !important;
-		
+	}
+
+	#secondary {
+		img, table {
+			width: 30%;
+		}
 	}
 
 }
@@ -219,9 +293,8 @@ p#sharelogos img {
 	.hero-unit {
 	 	background-size: 110%;
 	 	height: 200px;
-		
 	}
-
+	
 }
 
 /* Large desktop */
@@ -230,7 +303,5 @@ p#sharelogos img {
 	.hero-unit {
 	 	background-size: 110%;
 	 	height: 300px;
-		
 	}
-
 }

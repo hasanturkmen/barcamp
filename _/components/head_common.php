@@ -10,7 +10,7 @@
 	<meta property="og:site_name" content="BarCamp Deland" />
 	<meta property="fb:admins" content="647210751" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
