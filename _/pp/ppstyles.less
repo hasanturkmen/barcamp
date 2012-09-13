@@ -1,7 +1,9 @@
+@import "font-awesome.less"; // Has to be last to override when necessary
+
 @orange : #C63326;
 @yellow : rgb(255, 234, 166);
 @blue : #114B63;
-@gray : #8D93A1;
+@gray : #585C67;
 @mainfont: 'Enriqueta';
 @subfont: 'Economica';
 @gdlight: rgba(0,0,0,0);
@@ -38,7 +40,8 @@ footer {
 	margin: 0 auto;
 }
 
-#speakers {
+
+#speakers, #helpsponsor {
 	h2 {
 		color: @blue;
 		font-size: 2.2em;
@@ -58,7 +61,6 @@ footer {
 	
 
 	img {
-		float: left;
 		padding-right: 1em;
 	}
 
@@ -68,6 +70,12 @@ footer {
 	}
 
 
+}
+
+#speakerspage {
+	img {
+		float: left;
+	}
 }
 
 #content {
@@ -216,9 +224,6 @@ footer {
 p#sharelogos img {
 	max-height: 100px;
 }
-
-
-#speakers
 
 @media (max-width: 480px) {
 	body, footer {

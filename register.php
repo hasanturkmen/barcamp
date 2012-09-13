@@ -20,6 +20,7 @@
 		</article><!-- Main Article -->	
 			
 		<sidebar id="middle" class="span3 hidden-phone">
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_helpsponsor.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_sponsors.php')?>
 		</sidebar>
 		

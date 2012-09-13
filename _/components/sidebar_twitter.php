@@ -1,3 +1,4 @@
+<div class="hidden-phone">
 <h2>News</h2>
 <p>Here's the latest from our twitter news feed.</p>
 
@@ -31,3 +32,4 @@ new TWTR.Widget({
 </script>		
 
 <p class="small"><a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fbarcampdeland.org%2F&region=follow_link&screen_name=BarCampDeland">follow us on twitter</a>, and use the hashtag <span class="label">#barcampdeland</span></p>
+</div>

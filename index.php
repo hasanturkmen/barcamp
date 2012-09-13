@@ -64,20 +64,39 @@
 			</div>
 
 			<sidebar id="middle" class="hidden-phone">
+				<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_helpsponsor.php')?>
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_speakers.php')?>
 			</sidebar>
 		</article><!-- Main Article -->	
 			
 		
 		<sidebar id="secondary" class="span3">
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_twitter.php')?>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_venue.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_schedule.php')?>
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_twitter.php')?>
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_venue.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_parking.php')?>
 		</sidebar>
 	</div><!-- info -->	
 </div><!-- content -->	
 <?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/footer.php')?>
+<script src="/_/js/cycle.js" type="text/javascript"></script>
+	<script>
+	$(function() {
+		$.getJSON('/_/data/speakers.json', function(data) {
+		    var template = $('#speakerstpl').html();
+		    var html = Mustache.to_html(template, data);
+		    $('#speakers').html(html);
+		    $('#speakers').cycle({
+				fx: 'fade',
+				pause: 1,
+			    random:  1,
+				speed: 500,
+				timeout: 10000
+			});
+		});
+	});
+
+	</script>
 </body>
 </html>
 

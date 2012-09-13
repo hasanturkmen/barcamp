@@ -1,6 +1,4 @@
-<h2>Proposed Schedule</h2>
-<p>We're still in the planning stages for this project, but here's a proposed schedule for the event.</p>
-
+<h2>Event Schedule</h2>
 <table class="table table-striped table-condensed">
   <tbody>
     <tr>
