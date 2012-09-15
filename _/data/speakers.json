@@ -51,6 +51,15 @@
       "description" : "Michael Kappers, the Program Manager of Digital Media at Seminole State College, will give a talk and demonstration about basic modeling techniques in a 3D environment. Michael will also introduce the creation and application of shaders and materials. In addition he will demonstrate the animation process and examine how objects move in real life and emulate the movement in CG."
     },
     {
+      "firstname" : "Michael E",
+      "lastname" : "Jaeckle",
+      "category" : "Development",
+      "title" : "Easy Video Game Development with XNA",
+      "image" : "/images/speaker_michaelejaeckle.jpg",
+      "bio" : "Most kids from the '80s remember playing games on the Atari 2600. Michael had the Atari 2600's cousin the Atari 400. It had a keyboard, an option for tape back up, and most importantly a BASIC programming language cartridge. This sparked his interest in programming and love of video games. Since he discovered you can independently program and sell games for the Xbox 360 console, he's working to learn more about XNA coding which is the basis of quick video game development for Windows, Windows Phone 7 and the Xbox 360.",
+      "description" : "Michael will show you the free development tools available to indie game developers, introduce you the the game loop, show you how the parts work together as he codes a simple game, and what it takes to get your game published to it."
+    },
+    {
       "firstname" : "Clark",
       "lastname" : "Orr",
       "category" : "Design",

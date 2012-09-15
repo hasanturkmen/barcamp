@@ -26,9 +26,28 @@ body {
 }
 
 footer {
-	background: #ccc;
-	color: #FFF;
+	background: #ccc;	
+	#sponsors {
+		margin: 0 auto;
+			max-width: 1300px;
+		
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			
+			li {
+				width: 33%;
+				min-width:150px;
+				max-width:200px;
+				float: left;
+				display: block;
+			}
+		}
+	}
 }
+
+
 
 .droptown-toggle {
 	color: red;
@@ -49,6 +68,7 @@ footer {
 	
 	h3 {
 		font-size: 1.7em;
+		line-height: 110%;
 		color: @orange;
 		margin-top: 20px;
 	}
@@ -79,7 +99,7 @@ footer {
 }
 
 #content {
-	#primary {
+	article {
 		
 		h2 {
 			font-size: 2.5em;
@@ -99,48 +119,20 @@ footer {
 			float: right;
 		}		
 
-		#main {
-			float: left;
-			width:  70%;
-		}		
 	
-		#middle {
-			width: 30%;
-			float:right;
-			
-			h2 {
-				color: @orange;
-			}
-
-			h3 {
-				color: @blue;
-				line-height: 110%;
-				margin-top: 20px;
-			}
-
-			h4 {
-				margin-top: 2px;
-				margin-bottom: 5px;
-			}
-	
-			p, li {
-				margin-top: 5px;
-				font-size: 1.1em;
-				line-height: 1.3em;
-			}
-		}
 	}
 
-	#secondary {
+	#sidebarone, #sidebartwo {
 		padding-top:25px;
 
 		h2 {
-			color: @orange;
+			color: @gray;
+			line-height: 110%;
 		}
 
 		p, li {
 			font-size: 1.2em;
-			line-height: 1.5em;
+			line-height: 150%;
 		}
 		
 		iframe {
@@ -150,26 +142,29 @@ footer {
 		#parkingbtn {
 			float: right;
 		}
-		
-		.venue {
-			a {
-				color: @gray;
-			}
-			
-			a:hover {
-				text-decoration: none;
-			}
-			p {
-				padding-top:10px;
-				font-size: .9em;
-			}
-			h3 {
-				color: @orange;
-			}
-
-		}
 	}
 
+
+
+
+	.venue {
+		a {
+			color: @gray;
+		}
+		
+		a:hover {
+			text-decoration: none;
+		}
+
+		p {
+			padding-top:10px;
+			font-size: .9em;
+		}
+
+		h3 {
+			color: @orange;
+		}
+	}
 }
 
 #branding {
@@ -195,11 +190,12 @@ footer {
 	h1 {
 		color: @yellow;
 		font-size: 3.5em;
+		line-height: 110%;
 	}
 	
 	p {
 		color: white;
-		line-height: 1.75em;
+		line-height: 110%;
 	}
 }
 
@@ -249,13 +245,13 @@ p#sharelogos img {
 	#content {
 		margin: 5%;
 		
-		#primary p, #primary li, #secondary p, #secondary li {
+		#primary p, #primary li, #sidebartwo p, #sidebartwo li {
 			line-height: 1.1em;
 		}
 
-		#primary h2, #secondary h2 {
+		#primary h2, #sidebartwo h2 {
 			font-size: 1.8em;
-			line-height: 1em;
+			line-height: 100%;
 		}
 	}
 	
@@ -276,16 +272,15 @@ p#sharelogos img {
 	}
 
 	.hero-unit {
-		height: 180px !important;
+		height: 200px !important;
 	 	background-size: 190% !important;
 	}
 
-	#secondary {
+	.sidebartwo {
 		img, table {
 			width: 30%;
 		}
 	}
-
 }
 
 /* Portrait tablet to landscape and desktop */
