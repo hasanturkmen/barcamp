@@ -24,21 +24,22 @@
 		</article><!-- Main Article -->	
 		
 		<sidebar id="sidebarone" class="span3">
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_helpsponsor.php')?>
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_sponsors.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_schedule.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_parking.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/feature_helpuspromote.php')?>
 		</sidebar>
 
 		<sidebar id="sidebartwo" class="span3">
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_schwag.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_speakers.php')?>
 		</sidebar>
 	</div><!-- info -->	
 </div><!-- content -->	
 <?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/footer.php')?>
-<script src="/_/js/cycle.js" type="text/javascript"></script>
 	<script>
 	$(function() {
+	
 		$.getJSON('/_/data/speakers.json', function(data) {
 		    var template = $('#speakerstpl').html();
 		    var html = Mustache.to_html(template, data);
@@ -47,10 +48,32 @@
 				fx: 'fade',
 				pause: 1,
 			    random:  1,
+				next: '#spkr_next',
+				prev: '#spkr_prev',
 				speed: 500,
 				timeout: 10000
 			});
 		}); //get json
+		
+		$.getJSON('/_/data/sponsors.json', function(data) {
+		    var template = $('#sponsorsbtpl').html();
+		    var html = Mustache.to_html(template, data);
+		    $('#sponsorsidebar').html(html);
+		    $('#sponsorsidebar').cycle({
+				fx: 'scrollLeft',
+				pause: 1,
+			    random:  1,
+				speed: 300,
+				timeout: 5000
+			});
+
+		    template = $('#sponsorsfttpl').html();
+		    html = Mustache.to_html(template, data);
+		    $('#sponsorsfooter').html(html);
+
+		}); //get json
+
+		
 		sizing();
 		$(window).resize(sizing);
 
@@ -67,7 +90,6 @@
 		  }          
 		}
 	});
-
 	</script>
 </body>
 </html>

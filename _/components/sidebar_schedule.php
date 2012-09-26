@@ -11,7 +11,7 @@
     </tr>
     <tr>
       <th scope="row">12:00&nbsp;pm</th>
-      <td>Lunch is served (if available)</td>
+      <td>Lunch  Break</td>
     </tr>
     <tr>
       <th scope="row">1:00&nbsp;pm</th>
@@ -20,10 +20,6 @@
     <tr>
       <th scope="row">5:00&nbsp;pm</th>
       <td>Talks ends</td>
-    </tr>
-    <tr>
-      <th scope="row">6:00&nbsp;pm</th>
-      <td>After party (TBD)</td>
     </tr>
   </tbody>
 </table>

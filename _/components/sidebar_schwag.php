@@ -1,0 +1,3 @@
+<h2>Score some schwag!</h2>
+<img id="schwag" src="images/tshirt.png" alt="Tshirt Design for the event."/>
+<p>Be one of the first 200 people to <a href="register.php">register for BarCamp Deland</a> and get some awesome giveaways including one Free ebook of your choice from O'Reilly, giveaways from Adobe, a coupon for lunch during the event and this awesome shirt <a href="http://barcampdeland.org/">designed by speaker Clark Orr</a>. But you better act now! supplies are limited and with many already registered for the event, these aren't going to last long.</p>

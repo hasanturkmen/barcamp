@@ -27,6 +27,16 @@
 	</div><!-- info -->	
 </div><!-- content -->	
 <?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/footer.php')?>
+	<script>
+	$(function() {
+		$.getJSON('/_/data/sponsors.json', function(data) {
+		    template = $('#sponsorsfttpl').html();
+		    html = Mustache.to_html(template, data);
+		    $('#sponsorsfooter').html(html);
+		});
+
+	});
+	</script>
 </body>
 </html>
 

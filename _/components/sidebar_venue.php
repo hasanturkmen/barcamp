@@ -17,7 +17,7 @@
 <article class="venue">
 	<a href="http://www.cafedavincideland.com">
 	<h3>Cafe DaVinci</h3>
-	<img  class="venues" src="images/vanue_cafedavinci.png" alt="Some of the talks will be held at The Abbey in Downtown Deland" />
+	<img  class="venues" src="images/venue_cafedavinci.png" alt="Some of the talks will be held at The Abbey in Downtown Deland" />
 	<p>One Downtown Deland's premiere concert venues, Cafe DaVinci is a great place to enjoy live music and good times.</p>
 	</a>
 </article>

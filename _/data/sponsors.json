@@ -1,0 +1,49 @@
+{
+  "sponsors" : [
+    {
+      "name" : "Abbey",
+      "link" : "http://www.delandabbey.com",
+      "image" : "/images/sponsor_abbey.png"
+    },
+    {
+      "name" : "Adobe",
+      "link" : "http://www.adobe.com",
+      "image" : "/images/sponsor_adobe.png"
+    },
+    {
+      "name" : "Atlantic.net",
+      "link" : "http://www.atlantic.net",
+      "image" : "/images/sponsor_atlanticnet.png"
+    },
+    {
+      "name" : "Cafe DaVinci",
+      "link" : "http://www.cafedavincideland.com",
+      "image" : "/images/sponsor_cafedavinci.png"
+    },
+    {
+      "name" : "The Grotto",
+      "link" : "https://www.facebook.com/TheGrottoDeLand",
+      "image" : "/images/sponsor_thegrotto.png"
+    },
+    {
+      "name" : "Lynda.com",
+      "link" : "http://lynda.com",
+      "image" : "/images/sponsor_lynda.png"
+    },
+    {
+      "name" : "O'Reilly",
+      "link" : "http://oreilly.com",
+      "image" : "/images/sponsor_oreilly.png"
+    },
+    {
+      "name" : "Stetson University",
+      "link" : "http://www.stetson.edu/",
+      "image" : "/images/sponsor_stetson.png"
+    },
+    {
+      "name" : "Mainstreet Deland Association",
+      "link" : "http://mainstreetdeland.org",
+      "image" : "/images/sponsor_mainstreekdelandassociation.png"
+    }
+  ]
+}

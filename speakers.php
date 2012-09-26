@@ -39,6 +39,7 @@
 		</div>
 	{{/speakers}}
 	</script>
+
 	<script>
 	$(function() {
 		$.getJSON('/_/data/speakers.json', function(data) {
@@ -46,6 +47,13 @@
 		    var html = Mustache.to_html(template, data);
 		    $('#speakers').html(html);
 		});
+
+		$.getJSON('/_/data/sponsors.json', function(data) {
+		    template = $('#sponsorsfttpl').html();
+		    html = Mustache.to_html(template, data);
+		    $('#sponsorsfooter').html(html);
+		});
+
 	});
 	</script>
 </body>

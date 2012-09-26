@@ -31,6 +31,16 @@
       "description" : "Kelly and Courtney will show you how to assemble and transform a comprehensive expression of art into a marketable business proposition. Learn from the pros how to carefully select and position your image through photo shoots, print ads and more as they talk about the anatomy of executing an idea, breaking down the elements of photography and maintaining communication with clients."
     },
     {
+      "firstname" : "David",
+      "lastname" : "Foster",
+      "category" : "Entrepreneurship",
+      "image" : "/images/speaker_davidfoster.jpg",
+      "title" : "Getting funded! Angels, VCs and Kickstarter",
+      "link" : "http://wireless-nrg.com/nrg/",
+      "bio" : "Combining the strengths ingrained in him from his father as an entrepreneur, and grandfather as an inventor and leading engineer for NASA, David Foster has devoted a life of creativity, ingenuity, and action. David strives to be the leader in any task - proven since the age of 10, by 21 he had started a telecommunications wholesale/distribution company from scratch learning the real world of business practices. In 2007 he sold the business to focus more time on converting the Earth’s gravity into electricity. His products, ideas, business concepts, and marketing strategies have evolved into a company known as Wireless NRG. He believes in proven strategies as a foundation for a business model while creating paths for others to follow.",
+      "description" : "David will be talking about the challenges you can expect and what system you need in place to turn an idea into a product people are buying off the shelf.  This would cover the design, engineering, and R&D stage, the funding stage including Angel Investors, Venture Capitalist, and crowd funding like Kickstarter.  The hurdles of manufacturing and mass production, and finally search engine optimization, social media, celebrity marketing and the packaging design needed to get the product out the door"
+    },
+    {
       "firstname" : "Martha",
       "lastname" : "Garzon",
       "category" : "Typography",
