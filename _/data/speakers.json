@@ -31,6 +31,16 @@
       "description" : "Kelly and Courtney will show you how to assemble and transform a comprehensive expression of art into a marketable business proposition. Learn from the pros how to carefully select and position your image through photo shoots, print ads and more as they talk about the anatomy of executing an idea, breaking down the elements of photography and maintaining communication with clients."
     },
     {
+      "firstname" : "Stephen John Ellis",
+      "lastname" : "Ellis",
+      "category" : "Arts",
+      "image" : "/images/speaker_stephenjohnellis.jpg",
+      "title" : "Contemporary Art in the Virtual World",
+      "link" : "http://kellycanovaphotos.com",
+      "bio" : "Stephen John Ellis is a mixed-media artist employing digital video, electronic media and 3d design. His work argues for identity as a socio-aesthetic hybrid in an attempt to explain representations of self through the visual language of virtual realities. Ellis has worked as a freelance media artist and educator for several years and has exhibited both nationally and internationally, including China, Korea, Canada, Bulgaria and throughout the United States. Ellis was most recently an artist-in-residence at the Chashama residency in New York and will be in residence at the Nes Project in Iceland next May. He is currently a visiting lecturer of digital media at Stetson University.",
+      "description" : "Ellis will focus his talk on the state of contemporary art in the virtual online world of Second Life. Examining everything from photography and machinima to performance and interactivity, Ellis will look at not only how Second Life has become a new creative frontier for visual artists, but also the implications this new social space has had on our culture as a whole."
+    },
+    {
       "firstname" : "David",
       "lastname" : "Foster",
       "category" : "Entrepreneurship",
@@ -43,12 +53,21 @@
     {
       "firstname" : "Martha",
       "lastname" : "Garzon",
-      "category" : "Typography",
-      "title" : "Evolution & Trends From Print To Web Design",
+      "category" : "Business",
+      "title" : "Understanding Branding: How to define, build & improve your business presence",
       "image" : "/images/speaker_marthagarzon.jpg",
       "link" : "http://m5designstudio.com",
       "bio" : "Martha Garzon is a creative director, educator & web/graphic designer. After studying visual arts at the National University in Bogota, she moved to the US where she acquired a B.A. in Digital Arts from Stetson University. She has been teaching multimedia, web development, photography and design since 2004 and currently teaches at the Digital Arts Program at Stetson University and is the founder/owner of M5 Design Studio.",
-      "description" : "Since the invention of the printing press in 1400's, typography has evolved to become one of the most important tools in visual communications. This lecture explores type both in historical and contemporary contexts. Discover & get inspired by emerging typographic trends in print & web design."
+      "description" : "Branding is more than a name and a logo. Regardless if you are a large, small, or non profit organization, you can use the power of branding to connect with your customers, while enhancing your business visibility and credibility. This talk features real examples of successful brands that will help you understand how to improve and take control of your business presence."
+    },
+    {
+      "firstname" : "Michael E",
+      "lastname" : "Jaeckle",
+      "category" : "Development",
+      "title" : "Easy Video Game Development with XNA",
+      "image" : "/images/speaker_michaelejaeckle.jpg",
+      "bio" : "Most kids from the '80s remember playing games on the Atari 2600. Michael had the Atari 2600's cousin the Atari 400. It had a keyboard, an option for tape back up, and most importantly a BASIC programming language cartridge. This sparked his interest in programming and love of video games. Since he discovered you can independently program and sell games for the Xbox 360 console, he's working to learn more about XNA coding which is the basis of quick video game development for Windows, Windows Phone 7 and the Xbox 360.",
+      "description" : "Michael will show you the free development tools available to indie game developers, introduce you the the game loop, show you how the parts work together as he codes a simple game, and what it takes to get your game published to it."
     },
     {
       "firstname" : "Michael",
@@ -61,19 +80,10 @@
       "description" : "Michael Kappers, the Program Manager of Digital Media at Seminole State College, will give a talk and demonstration about basic modeling techniques in a 3D environment. Michael will also introduce the creation and application of shaders and materials. In addition he will demonstrate the animation process and examine how objects move in real life and emulate the movement in CG."
     },
     {
-      "firstname" : "Michael E",
-      "lastname" : "Jaeckle",
-      "category" : "Development",
-      "title" : "Easy Video Game Development with XNA",
-      "image" : "/images/speaker_michaelejaeckle.jpg",
-      "bio" : "Most kids from the '80s remember playing games on the Atari 2600. Michael had the Atari 2600's cousin the Atari 400. It had a keyboard, an option for tape back up, and most importantly a BASIC programming language cartridge. This sparked his interest in programming and love of video games. Since he discovered you can independently program and sell games for the Xbox 360 console, he's working to learn more about XNA coding which is the basis of quick video game development for Windows, Windows Phone 7 and the Xbox 360.",
-      "description" : "Michael will show you the free development tools available to indie game developers, introduce you the the game loop, show you how the parts work together as he codes a simple game, and what it takes to get your game published to it."
-    },
-    {
       "firstname" : "Clark",
       "lastname" : "Orr",
       "category" : "Design",
-      "title" : "Process, Practices, and Style",
+      "title" : "Design Process & Style",
       "image" : "/images/speaker_clarkorr.jpg",
       "link" : "http://clarkorr.squarespace.com",
       "bio" : "Clark Orr, a native DeLand, FL resident is a freelance graphic designer and illustrator whose focus is primarily in branding, print, packaging, and apparel design. Clark currently splits his time as a Head Designer for the Boston-based t-shirt brand Johnny Cupcakes and working as a contracted designer for brands such as: Nike, The Hundreds, Benny Gold, Rebel 8, & several others.",

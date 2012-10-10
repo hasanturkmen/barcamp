@@ -1,94 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>View Source</title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<link rel="apple-touch-icon" href="images/appicon.png" type="" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<link rel="apple-touch-startup-image" href="images/splash.png" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
-	<script src="_/js/jquery.js"></script>
-	<script src="_/js/jquery.mobile.js"></script>
-
-	<script src="_/js/myscript.js"></script>
-	<link rel="stylesheet" href="_/css/jquery.mobile.css" />
-	<link rel="stylesheet" href="_/css/mystyles.css" />
-</head>
-<body>
+<?php include("_/components/mobile-header.php"); ?>
 	<!-- Page: home -->
-	<div id="home" data-role="page" data-title="Schedule">
-		<div data-role="header" data-position="fixed" data-id="vs_header">
-			<h1>Schedule</h1>
-			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
-		</div><!-- header -->
-		<div data-role="content">
-			<div data-role="controlgroup" data-type="horizontal"  data-mini="true">
-				<a href="#" data-role="button" >Abbey</a>
-				<a href="#" data-role="button">Grotto</a>
-				<a href="#" data-role="button">DaVinci</a>
-				<a href="#" data-role="button">Alley</a>
-			</div>
-			<p></p>
-			<ul data-role="listview" data-filter="true">
-				<li data-role="list-divider">Deland Abbey</li>
-				<li>
-					<a href="#">
-					<h3>Eric Breitenbach</h3>
-					<img src="../images/speaker_ericbreitenbach.jpg" />
-					<p class="ui-li-aside"><strong>9:00</strong>AM</p>
-					<p class="title" style="white-space: normal;">Getting Independent Documentaries off the ground</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-					<h3>Eric Breitenbach</h3>
-					<img src="../images/speaker_ericbreitenbach.jpg" />
-					<p class="ui-li-aside"><strong>9:00</strong>AM</p>
-					<p class="title" style="white-space: normal;">Getting Independent Documentaries off the ground</p>
-					</a>
-				</li>
-				<li data-role="list-divider">The Grotto</li>
-				<li>
-					<a href="#">
-					<h3>Eric Breitenbach</h3>
-					<img src="../images/speaker_ericbreitenbach.jpg" />
-					<p class="ui-li-aside"><strong>9:00</strong>AM</p>
-					<p class="title" style="white-space: normal;">Getting Independent Documentaries off the ground</p>
-					</a>
-				</li>
-				<li data-role="list-divider">DaVinci's Cafe</li>
-				<li>
-					<a href="#">
-					<h3>Eric Breitenbach</h3>
-					<img src="../images/speaker_ericbreitenbach.jpg" />
-					<p class="ui-li-aside"><strong>9:00</strong>AM</p>
-					<p class="title" style="white-space: normal;">Getting Independent Documentaries off the ground</p>
-					</a>
-				</li>
-				<li data-role="list-divider">Artisan Alley</li>
-				<li>
-					<a href="#">
-					<h3>Eric Breitenbach</h3>
-					<img src="../images/speaker_ericbreitenbach.jpg" />
-					<p class="ui-li-aside"><strong>9:00</strong>AM</p>
-					<p class="title" style="white-space: normal;">Getting Independent Documentaries off the ground</p>
-					</a>
-				</li>
-			</ul>
+		<?php include("_/components/header-default.php"); ?>
+		<div id="homecontent" data-role="content">
+			<img src="images/barcampdeland-hr.png" class="logo" alt="BarCamp Logo" />
+			<a href="schedule.php" data-role="button" data-icon="grid">Schedule</a>
+			<a href="venues.php" data-role="button" data-icon="grid">Venues</a>
+			<a href="info.php" data-role="button" data-icon="info">Info</a>
+			<div id="sponsors"></div>
 		</div><!-- content -->
-		<div data-role="footer" data-position="fixed" data-id="vs_footer">
-			<div data-role="navbar">
-				<ul>
-					<li><a href="#videos" data-role="button" data-icon="vs_video">Schedule</a></li>
-					<li><a href="#videos" data-role="button" data-icon="vs_video">Speakers</a></li>
-					<li><a href="#photos" data-role="button" data-icon="vs_photo">Sponsors</a></li>
-					<li><a href="#tweets" data-role="button" data-icon="vs_twitter">Info</a></li>
-				</ul>
-			</div><!-- navbar -->
-		</div><!-- footer -->
-	</div><!-- page -->
-</body>
-</html>
+		<script id="sponsorsbtpl" type="text/template">
+		{{#sponsors}}
+			<div class="sponsor">
+				<a href="{{tag}}"><img src="{{image}}" alt="Sponsor: {{name}}" /></a>
+			</div>
+		{{/sponsors}}
+		</script>
+
+	<script>
+		$(function() {
+			$.getJSON('/_/data/sponsors.json', function(data) {
+			    var template = $('#sponsorsbtpl').html();
+			    var html = Mustache.to_html(template, data);
+			    $('#sponsors').html(html);
+			    $('#sponsors').cycle({
+					fx: 'fade',
+				    random:  1,
+					speed: 300,
+					timeout: 5000
+				});
+			    template = $('#sponsorsfttpl').html();
+			    html = Mustache.to_html(template, data);
+			    $('#sponsorsfooter').html(html);
+			}); //get json
+		}); //jQuery
+	</script>
+<?php include("_/components/mobile-footer.php"); ?>

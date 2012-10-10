@@ -18,9 +18,7 @@
 		</article><!-- Main Article -->	
 			
 		<sidebar id="middle" class="span3 hidden-phone">
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_helpsponsor.php')?>
-			<iframe id="countdown" class="hidden-phone" src="http://www.eventbrite.com/countdown-widget?eid=3917360932" frameborder="0" height="250" width="200" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_schedule.php')?>
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_keepitgoing.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_twitter.php')?>
 		</sidebar>
 		

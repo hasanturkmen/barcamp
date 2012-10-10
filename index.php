@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Barcamp Deland -- October 6, 2012 in Downtown Deland, FL - Technology Conference - Deland, Orange City, Deltona, Sanford - Florida</title>
-	<meta name="description" CONTENT="BarCamp Deland is conference in Downtown Deland, FL on Saturday, October 6, 2012 that's centered around technology. Bringing people together from backgrounds like web-design, photography, graphic design web-development and technology for cooperative learning.">
+	<title>Barcamp Deland -- Downtown Deland, FL - Technology Conference - Deland, Orange City, Deltona, Sanford - Florida</title>
+	<meta name="description" CONTENT="BarCamp Deland is a free conference in Downtown Deland, FL that's centered around technology. Bringing people together from backgrounds like web-design, photography, graphic design web-development and technology for cooperative learning.">
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/head_common.php')?>
 </head>
 <body>
@@ -18,20 +18,16 @@
 	</div><!-- row -->
 	<div id="info" class="row-fluid">
 		<article id="main" class="span6">
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/feature_thanks.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/feature_whatis.php')?>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/feature_whoshouldcome.php')?>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/feature_rulesofbarcamp.php')?>
 		</article><!-- Main Article -->	
 		
 		<sidebar id="sidebarone" class="span3">
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_keepitgoing.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_sponsors.php')?>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_schedule.php')?>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_parking.php')?>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/feature_helpuspromote.php')?>
 		</sidebar>
 
 		<sidebar id="sidebartwo" class="span3">
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_schwag.php')?>
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/_/components/sidebar_speakers.php')?>
 		</sidebar>
 	</div><!-- info -->	
